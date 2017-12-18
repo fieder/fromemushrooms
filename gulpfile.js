@@ -9,6 +9,13 @@ var browserSync = require('browser-sync');
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
+var ghPages = require('gulp-gh-pages');
+ 
+gulp.task('deploy', function() {
+  return gulp.src('./_site/**/*')
+    .pipe(ghPages());
+});
+
 // Build the Jekyll Site
 gulp.task('jekyll-build', function (done) {
     return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
