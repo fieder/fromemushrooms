@@ -1,0 +1,7 @@
+<nav class="main_menu">
+    {% for item in site.data.main_nav %}
+    <a href="{{item.link | prepend: site.baseurl}}">{{item.name}}</a>
+    {% endfor %}
+</nav>
+
+

@@ -1,0 +1,8 @@
+- name: About
+  link: /about/
+- name: Mushrooms
+  link: /mushrooms/
+- name: Food supplements
+  link: /food-supplements/
+- name: Contact
+  link: /contact/

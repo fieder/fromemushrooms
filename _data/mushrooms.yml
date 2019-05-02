@@ -1,0 +1,12 @@
+- name: Reishi
+  link: reishi/
+  img: reishi.jpg
+- name: Lions Mane
+  link: liones-mane/
+  img: lions-mane.jpg
+- name: Turkey tail
+  link: turkey-tail/
+  img: turkey-tail.jpg
+- name: Cordyceps
+  link: cordyceps/
+  img: cordyceps.jpg
